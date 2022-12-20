@@ -13,6 +13,9 @@ img {
 #header-img {
 	margin-top: 40px;
 	width: 200px;
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
 .margins {
@@ -29,7 +32,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(91, 115, 255);
+	background-color: #fc6b03;
 	width: 28%;
 	height: 140px;
 	margin: auto;
@@ -41,7 +44,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(91, 115, 255);
+	background-color: #fc6b03;
 	width: 28%;
 	height: 140px;
 	margin: auto 50px auto auto;
@@ -58,7 +61,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	min-height: 90px;
-	background-color: rgb(91, 115, 255);
+	background-color: #fc6b03;
 	padding-bottom: 5px;
 	top: 0;
 	box-shadow: 1.2px 1.2px 1.2px 1.2px rgba(156, 156, 156, 0.9);
@@ -81,10 +84,11 @@ img {
 	border-radius: 5px;
 }
 #submit {
+	color: white;
 	border-radius: 5px;
-	background-color: rgb(158, 168, 235);
+	background-color: #fc5603;
 	font-weight: bold;
-	border: 2px solid rgba(91, 115, 255, 0.7);
+	border: 2px solid #fc5603;
 	margin-top: 18px;
 }
 #container {
@@ -95,7 +99,7 @@ img {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: 1.5px solid rgba(91, 115, 255, 0.5);
+	border: 1.5px solid #fc7303;
 	margin: auto;
 	margin-top: 40px;
 	border-radius: 40px;
@@ -124,7 +128,7 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(91, 115, 255);
+	background-color: #fc6b03;
 	width: 28%;
 	height: 140px;
 	margin: auto auto auto 50px;
@@ -138,7 +142,7 @@ img {
 		display: block;
 		align-items: center;
 		justify-content: center;
-		background-color: rgb(91, 115, 255);
+		background-color: #fc6b03;
 		width: 100%;
 		margin: 10px;
 		height: 80px;
@@ -148,7 +152,7 @@ img {
 		display: block;
 		align-items: center;
 		justify-content: center;
-		background-color: rgb(91, 115, 255);
+		background-color: #fc6b03;
 		width: 100%;
 		margin: 10px;
 		height: 80px;
@@ -159,7 +163,7 @@ img {
 		display: block;
 		align-items: center;
 		justify-content: center;
-		background-color: rgb(91, 115, 255);
+		background-color: #fc6b03;
 		width: 100%;
 		margin: 10px;
 		height: 80px;
@@ -178,7 +182,7 @@ img {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	border: 1.5px solid rgba(91, 115, 255, 0.5);
+	border: 1.5px solid #fc7303;
 	margin: auto;
 	margin-top: 40px;
 	margin-bottom: 50px;
