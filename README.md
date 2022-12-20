@@ -1,5 +1,6 @@
-# FCC Test Suite Template
+# Tomide-and-Theierry-Microverse-Challenge
 
-**Fork** this project (do not open a Pull Request) to start working on any of freeCodeCamp's responsive web design course projects. Select the project from the dropdown menu and run the tests to see which requirements your project is still missing.
+Product landing page in HTML and CSS
 
-You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
+
+<img width="1440" alt="Screenshot 2022-12-20 at 18 23 56" src="https://user-images.githubusercontent.com/55337742/208728328-2aae3bda-d2ca-4d3b-ac5f-5961708de717.png">
