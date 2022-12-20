@@ -8,19 +8,100 @@
 
 	<body>
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-		“Hello World!”
-		<!--
+ 
+    <header>
+      <section id="header">
+         <nav id="nav-bar">
+             <img  id="header-img" src="./micro.png" alt="company-logo">
+             <p>Custom T-Shirts, order your own</p>
+             <a class="nav-link" href="#features">FEATURES</a>
+             <a class="nav-link" href="#video">CHECK A VIDEO</a>
+             <a class="nav-link" href="#pricing">PRICING</a>
+         </nav>
+      </section>
+    </header>
+  
+    
+     <section id="mail-container">
+           <div class="exclaimer">
+              <h3>Let us know what you'd like on your T-Shirt</h3>
+           </div>
+           <div>
+               <p>We'll assign someone to meet your needs!</p>
+           </div>
+           <!-- <form id="form">
+              
+                  <input id="email" type="email" placeholder="Just leave your email" required></input>
+              
+             <input id="submit" type="submit" value="SIGN UP" cursor="pointer" action="mailto:https://www.freecodecamp.com/email-submit"/>
+           </form> -->
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
+           <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <input id="submit" type="submit" value="Get Started" class="btn" />
+          </form>
+     </section>
+    
+     <section id="container">
+     <p style="font-weight:bold;font-size:1.3em;">OUR FEATURES</p>
+     
+     <section id="features">
+             <div class="template1">
+                 <div class="margins">
+                     <p class="column-text">FAST SHIPPING</p>
+                     <p style="color:white;">Expect your package in less than 3 business days & IT'S FREE!</p>
+                 </div>
+             </div>
+             <div class="template2">
+                 <div class="margins">
+                     <p class="column-text">GREAT CUSTOMER SUPPORT</p>
+                     <p style="color:white;">We'll assign someone to meet your requirements regarding design and size.</p>
+                 </div>
+             </div>
+             <div class="template3">
+                 <div class="margins">
+                     <p class="column-text">QUALITY FABRIC</p>
+                     <p style="color:white;">Our shirts are made out of top-notch cloth. It's not just about design!</p>
+                 </div>
+             </div>
+         </section>
+    
+     </section>
+    
+     <section>
+         <iframe id="video" width="450" height="340" src="https://www.youtube.com/embed/ddR9g-YzE8g" frameborder="0" allowfullscreen></iframe>
+     </section>
+     
+     <section id="pricing">
+         <p style="font-weight:bold;font-size:1.3em;">CHECK OUR COMPETITIVE PRICES</p>
+             <div id="features">
+                 <div class="template1">
+                     <div class="margins">
+                          <p class="column-text">PRE-MADE T-SHIRT</p>
+                          <p style="color:white;">Get a t-shirt in stock starting from<p style="font-size: 1.3em;color:white;font-weight:bold;">30$</p></p>
+                     </div>
+                 </div>
+                 <div class="template2">
+                     <div class="margins">
+                         <p class="column-text">CUSTOM DESIGN T-SHIRT</p>
+                         <p style="color:white;">Get a custom designed t-shirt starting from<p style="font-size: 1.3em;color:white;font-weight:bold;">45$</p></p>
+                     </div>
+                 </div>
+                 <div class="template3">
+                     <div class="margins">
+                         <p   class="column-text">JUST THE DESIGN</p>
+                         <p style="color:white;">Bring your shirt, we'll design what you want<p style="font-size: 1.3em;color:white;font-weight:bold;">18$</p></p>     
+                     </div>
+                 </div>
+             </div>
+     </section>
+  
 		<script src="js/index.js"></script>
 	</body>
 </html>
